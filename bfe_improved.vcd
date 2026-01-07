@@ -1,0 +1,1211 @@
+$date
+  Wed Jan 07 15:50:20 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module bfe_tb_improved $end
+$var reg 16 ! s_dst[15:0] $end
+$var reg 16 " s_src[15:0] $end
+$var reg 4 # s_size[3:0] $end
+$var reg 4 $ s_start[3:0] $end
+$var reg 1 % s_variant $end
+$scope module uut $end
+$var reg 16 & dst[15:0] $end
+$var reg 16 ' src[15:0] $end
+$var reg 4 ( size[3:0] $end
+$var reg 4 ) start[3:0] $end
+$var reg 1 * variant $end
+$var reg 16 + shifted_src[15:0] $end
+$var reg 16 , mask[15:0] $end
+$var reg 16 - masked_data[15:0] $end
+$var reg 1 . sign_bit $end
+$var reg 16 / extended[15:0] $end
+$var reg 16 0 bit_lt[0:15] $end
+$var reg 16 1 bit_eq[0:15] $end
+$var reg 16 2 bit_gt[0:15] $end
+$scope module barrel_shifter $end
+$var reg 16 3 data_in[15:0] $end
+$var reg 16 4 data_out[15:0] $end
+$var reg 4 5 shift[3:0] $end
+$var reg 1 6 missing $end
+$comment s_internal_data is not handled $end
+$scope module for_i(0) $end
+$scope module slice $end
+$var reg 16 7 data_in[15:0] $end
+$var reg 16 8 data_out[15:0] $end
+$var reg 1 9 sel $end
+$var reg 1 : missing $end
+$var reg 16 ; s_out[15:0] $end
+$upscope $end
+$upscope $end
+$scope module for_i(1) $end
+$scope module slice $end
+$var reg 16 < data_in[15:0] $end
+$var reg 16 = data_out[15:0] $end
+$var reg 1 > sel $end
+$var reg 1 ? missing $end
+$var reg 16 @ s_out[15:0] $end
+$upscope $end
+$upscope $end
+$scope module for_i(2) $end
+$scope module slice $end
+$var reg 16 A data_in[15:0] $end
+$var reg 16 B data_out[15:0] $end
+$var reg 1 C sel $end
+$var reg 1 D missing $end
+$var reg 16 E s_out[15:0] $end
+$upscope $end
+$upscope $end
+$scope module for_i(3) $end
+$scope module slice $end
+$var reg 16 F data_in[15:0] $end
+$var reg 16 G data_out[15:0] $end
+$var reg 1 H sel $end
+$var reg 1 I missing $end
+$var reg 16 J s_out[15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(0) $end
+$scope module comparator $end
+$var reg 4 K a[3:0] $end
+$var reg 4 L b[3:0] $end
+$var reg 1 M lt $end
+$var reg 1 N eq $end
+$var reg 1 O gt $end
+$var reg 1 P s_lt $end
+$var reg 1 Q s_eq $end
+$var reg 1 R s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(1) $end
+$scope module comparator $end
+$var reg 4 S a[3:0] $end
+$var reg 4 T b[3:0] $end
+$var reg 1 U lt $end
+$var reg 1 V eq $end
+$var reg 1 W gt $end
+$var reg 1 X s_lt $end
+$var reg 1 Y s_eq $end
+$var reg 1 Z s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(2) $end
+$scope module comparator $end
+$var reg 4 [ a[3:0] $end
+$var reg 4 \ b[3:0] $end
+$var reg 1 ] lt $end
+$var reg 1 ^ eq $end
+$var reg 1 _ gt $end
+$var reg 1 ` s_lt $end
+$var reg 1 a s_eq $end
+$var reg 1 b s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(3) $end
+$scope module comparator $end
+$var reg 4 c a[3:0] $end
+$var reg 4 d b[3:0] $end
+$var reg 1 e lt $end
+$var reg 1 f eq $end
+$var reg 1 g gt $end
+$var reg 1 h s_lt $end
+$var reg 1 i s_eq $end
+$var reg 1 j s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(4) $end
+$scope module comparator $end
+$var reg 4 k a[3:0] $end
+$var reg 4 l b[3:0] $end
+$var reg 1 m lt $end
+$var reg 1 n eq $end
+$var reg 1 o gt $end
+$var reg 1 p s_lt $end
+$var reg 1 q s_eq $end
+$var reg 1 r s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(5) $end
+$scope module comparator $end
+$var reg 4 s a[3:0] $end
+$var reg 4 t b[3:0] $end
+$var reg 1 u lt $end
+$var reg 1 v eq $end
+$var reg 1 w gt $end
+$var reg 1 x s_lt $end
+$var reg 1 y s_eq $end
+$var reg 1 z s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(6) $end
+$scope module comparator $end
+$var reg 4 { a[3:0] $end
+$var reg 4 | b[3:0] $end
+$var reg 1 } lt $end
+$var reg 1 !" eq $end
+$var reg 1 "" gt $end
+$var reg 1 #" s_lt $end
+$var reg 1 $" s_eq $end
+$var reg 1 %" s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(7) $end
+$scope module comparator $end
+$var reg 4 &" a[3:0] $end
+$var reg 4 '" b[3:0] $end
+$var reg 1 (" lt $end
+$var reg 1 )" eq $end
+$var reg 1 *" gt $end
+$var reg 1 +" s_lt $end
+$var reg 1 ," s_eq $end
+$var reg 1 -" s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(8) $end
+$scope module comparator $end
+$var reg 4 ." a[3:0] $end
+$var reg 4 /" b[3:0] $end
+$var reg 1 0" lt $end
+$var reg 1 1" eq $end
+$var reg 1 2" gt $end
+$var reg 1 3" s_lt $end
+$var reg 1 4" s_eq $end
+$var reg 1 5" s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(9) $end
+$scope module comparator $end
+$var reg 4 6" a[3:0] $end
+$var reg 4 7" b[3:0] $end
+$var reg 1 8" lt $end
+$var reg 1 9" eq $end
+$var reg 1 :" gt $end
+$var reg 1 ;" s_lt $end
+$var reg 1 <" s_eq $end
+$var reg 1 =" s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(10) $end
+$scope module comparator $end
+$var reg 4 >" a[3:0] $end
+$var reg 4 ?" b[3:0] $end
+$var reg 1 @" lt $end
+$var reg 1 A" eq $end
+$var reg 1 B" gt $end
+$var reg 1 C" s_lt $end
+$var reg 1 D" s_eq $end
+$var reg 1 E" s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(11) $end
+$scope module comparator $end
+$var reg 4 F" a[3:0] $end
+$var reg 4 G" b[3:0] $end
+$var reg 1 H" lt $end
+$var reg 1 I" eq $end
+$var reg 1 J" gt $end
+$var reg 1 K" s_lt $end
+$var reg 1 L" s_eq $end
+$var reg 1 M" s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(12) $end
+$scope module comparator $end
+$var reg 4 N" a[3:0] $end
+$var reg 4 O" b[3:0] $end
+$var reg 1 P" lt $end
+$var reg 1 Q" eq $end
+$var reg 1 R" gt $end
+$var reg 1 S" s_lt $end
+$var reg 1 T" s_eq $end
+$var reg 1 U" s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(13) $end
+$scope module comparator $end
+$var reg 4 V" a[3:0] $end
+$var reg 4 W" b[3:0] $end
+$var reg 1 X" lt $end
+$var reg 1 Y" eq $end
+$var reg 1 Z" gt $end
+$var reg 1 [" s_lt $end
+$var reg 1 \" s_eq $end
+$var reg 1 ]" s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(14) $end
+$scope module comparator $end
+$var reg 4 ^" a[3:0] $end
+$var reg 4 _" b[3:0] $end
+$var reg 1 `" lt $end
+$var reg 1 a" eq $end
+$var reg 1 b" gt $end
+$var reg 1 c" s_lt $end
+$var reg 1 d" s_eq $end
+$var reg 1 e" s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_mask(15) $end
+$scope module comparator $end
+$var reg 4 f" a[3:0] $end
+$var reg 4 g" b[3:0] $end
+$var reg 1 h" lt $end
+$var reg 1 i" eq $end
+$var reg 1 j" gt $end
+$var reg 1 k" s_lt $end
+$var reg 1 l" s_eq $end
+$var reg 1 m" s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_extension(0) $end
+$upscope $end
+$scope module gen_extension(1) $end
+$upscope $end
+$scope module gen_extension(2) $end
+$upscope $end
+$scope module gen_extension(3) $end
+$upscope $end
+$scope module gen_extension(4) $end
+$upscope $end
+$scope module gen_extension(5) $end
+$upscope $end
+$scope module gen_extension(6) $end
+$upscope $end
+$scope module gen_extension(7) $end
+$upscope $end
+$scope module gen_extension(8) $end
+$upscope $end
+$scope module gen_extension(9) $end
+$upscope $end
+$scope module gen_extension(10) $end
+$upscope $end
+$scope module gen_extension(11) $end
+$upscope $end
+$scope module gen_extension(12) $end
+$upscope $end
+$scope module gen_extension(13) $end
+$upscope $end
+$scope module gen_extension(14) $end
+$upscope $end
+$scope module gen_extension(15) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000000000000000 !
+b1010101111001101 "
+b0100 #
+b0011 $
+0%
+b0000000000000000 &
+b1010101111001101 '
+b0100 (
+b0011 )
+0*
+bUUUUUUUUUUUUUUUU +
+bUUUUUUUUUUUUUUUU ,
+bUUUUUUUUUUUUUUUU -
+U.
+b0000000000000000 /
+bUUUUUUUUUUUUUUUU 0
+bUUUUUUUUUUUUUUUU 1
+bUUUUUUUUUUUUUUUU 2
+b1010101111001101 3
+bUUUUUUUUUUUUUUUU 4
+b0011 5
+06
+b1010101111001101 7
+bUUUUUUUUUUUUUUUU 8
+19
+0:
+b0101010111100110 ;
+bUUUUUUUUUUUUUUUU <
+bUUUUUUUUUUUUUUUU =
+1>
+0?
+b00UUUUUUUUUUUUUU @
+bUUUUUUUUUUUUUUUU A
+bUUUUUUUUUUUUUUUU B
+0C
+0D
+bUUUUUUUUUUUUUUUU E
+bUUUUUUUUUUUUUUUU F
+bUUUUUUUUUUUUUUUU G
+0H
+0I
+bUUUUUUUUUUUUUUUU J
+b0000 K
+b0100 L
+UM
+UN
+UO
+1P
+0Q
+0R
+b0001 S
+b0100 T
+UU
+UV
+UW
+1X
+0Y
+0Z
+b0010 [
+b0100 \
+U]
+U^
+U_
+1`
+0a
+0b
+b0011 c
+b0100 d
+Ue
+Uf
+Ug
+1h
+0i
+0j
+b0100 k
+b0100 l
+Um
+Un
+Uo
+0p
+1q
+0r
+b0101 s
+b0100 t
+Uu
+Uv
+Uw
+0x
+0y
+1z
+b0110 {
+b0100 |
+U}
+U!"
+U""
+0#"
+0$"
+1%"
+b0111 &"
+b0100 '"
+U("
+U)"
+U*"
+0+"
+0,"
+1-"
+b1000 ."
+b0100 /"
+U0"
+U1"
+U2"
+03"
+04"
+15"
+b1001 6"
+b0100 7"
+U8"
+U9"
+U:"
+0;"
+0<"
+1="
+b1010 >"
+b0100 ?"
+U@"
+UA"
+UB"
+0C"
+0D"
+1E"
+b1011 F"
+b0100 G"
+UH"
+UI"
+UJ"
+0K"
+0L"
+1M"
+b1100 N"
+b0100 O"
+UP"
+UQ"
+UR"
+0S"
+0T"
+1U"
+b1101 V"
+b0100 W"
+UX"
+UY"
+UZ"
+0["
+0\"
+1]"
+b1110 ^"
+b0100 _"
+U`"
+Ua"
+Ub"
+0c"
+0d"
+1e"
+b1111 f"
+b0100 g"
+Uh"
+Ui"
+Uj"
+0k"
+0l"
+1m"
+#10000
+b0000100000000000 1
+b0101010111100110 8
+b0101010111100110 <
+b00UUUUUUUUUUUUUU =
+b0001010101111001 @
+b00UUUUUUUUUUUUUU A
+bUUUUUUUUUUUUUUUU B
+b00UUUUUUUUUUUUUU E
+bUUUUUUUUUUUUUUUU G
+0N
+0V
+0^
+0f
+1n
+0v
+0!"
+0)"
+01"
+09"
+0A"
+0I"
+0Q"
+0Y"
+0a"
+0i"
+#18000
+b000000000000UUUU !
+b000000000000UUUU &
+b0000000000001111 ,
+b000000000000UUUU -
+b000000000000UUUU /
+b1111000000000000 0
+b0000011111111111 2
+1M
+0O
+1U
+0W
+1]
+0_
+1e
+0g
+0m
+0o
+0u
+1w
+0}
+1""
+0("
+1*"
+00"
+12"
+08"
+1:"
+0@"
+1B"
+0H"
+1J"
+0P"
+1R"
+0X"
+1Z"
+0`"
+1b"
+0h"
+1j"
+#20000
+b0001010101111001 =
+b0001010101111001 A
+b00UUUUUUUUUUUUUU B
+b0001010101111001 E
+b00UUUUUUUUUUUUUU F
+b00UUUUUUUUUUUUUU J
+#30000
+b00UUUUUUUUUUUUUU +
+b00UUUUUUUUUUUUUU 4
+b0001010101111001 B
+b0001010101111001 F
+b00UUUUUUUUUUUUUU G
+b0001010101111001 J
+#40000
+b0000000000001001 !
+b0000000000001001 &
+b0001010101111001 +
+b0000000000001001 -
+1.
+b0000000000001001 /
+b0001010101111001 4
+b0001010101111001 G
+#500000
+b1111111111111001 !
+1%
+b1111111111111001 &
+1*
+b1111111111111001 /
+#1000000
+b0000000000001001 !
+b1101111010101101 "
+b1000 #
+b0100 $
+0%
+b0000000000001001 &
+b1101111010101101 '
+b1000 (
+b0100 )
+0*
+0.
+b0000000000001001 /
+b1101111010101101 3
+b0100 5
+b1101111010101101 7
+09
+b1101111010101101 ;
+0>
+b0101010111100110 @
+1C
+b0000000101010111 E
+b1000 L
+b1000 T
+b1000 \
+b1000 d
+b1000 l
+1p
+0q
+b1000 t
+1x
+0z
+b1000 |
+1#"
+0%"
+b1000 '"
+1+"
+0-"
+b1000 /"
+14"
+05"
+b1000 7"
+b1000 ?"
+b1000 G"
+b1000 O"
+b1000 W"
+b1000 _"
+b1000 g"
+#1010000
+b0000000010000000 1
+b1101111010101101 8
+b1101111010101101 <
+b0101010111100110 =
+b1101111010101101 @
+b0101010111100110 A
+b0000000101010111 B
+b0000010101011110 E
+b0000000101010111 F
+b0000000101010111 J
+0n
+11"
+#1018000
+b0000000001111001 !
+b0000000001111001 &
+b0000000011111111 ,
+b0000000001111001 -
+b0000000001111001 /
+b1111111100000000 0
+b0000000001111111 2
+1m
+1u
+0w
+1}
+0""
+1("
+0*"
+02"
+#1020000
+b0000000001010111 !
+b0000000001010111 &
+b0000000101010111 +
+b0000000001010111 -
+b0000000001010111 /
+b0000000101010111 4
+b1101111010101101 =
+b1101111010101101 A
+b0000010101011110 B
+b0000110111101010 E
+b0000010101011110 F
+b0000000101010111 G
+b0000010101011110 J
+#1030000
+b0000000001011110 !
+b0000000001011110 &
+b0000010101011110 +
+b0000000001011110 -
+b0000000001011110 /
+b0000010101011110 4
+b0000110111101010 B
+b0000110111101010 F
+b0000010101011110 G
+b0000110111101010 J
+#1040000
+b0000000011101010 !
+b0000000011101010 &
+b0000110111101010 +
+b0000000011101010 -
+1.
+b0000000011101010 /
+b0000110111101010 4
+b0000110111101010 G
+#1500000
+b1111111111101010 !
+1%
+b1111111111101010 &
+1*
+b1111111111101010 /
+#2000000
+b0000000011101010 !
+b0001001000110100 "
+b0011 #
+b0000 $
+0%
+b0000000011101010 &
+b0001001000110100 '
+b0011 (
+b0000 )
+0*
+0.
+b0000000011101010 /
+b0001001000110100 3
+b0000 5
+b0001001000110100 7
+b0001001000110100 ;
+0C
+b1101111010101101 E
+b0011 L
+b0011 T
+b0011 \
+b0011 d
+0h
+1i
+b0011 l
+0p
+1r
+b0011 t
+0x
+1z
+b0011 |
+0#"
+1%"
+b0011 '"
+0+"
+1-"
+b0011 /"
+04"
+15"
+b0011 7"
+b0011 ?"
+b0011 G"
+b0011 O"
+b0011 W"
+b0011 _"
+b0011 g"
+#2010000
+b0001000000000000 1
+b0001001000110100 8
+b0001001000110100 <
+b0001001000110100 @
+b1101111010101101 B
+b1101111010101101 F
+b1101111010101101 J
+1f
+01"
+#2018000
+b0000000000000010 !
+b0000000000000010 &
+b0000000000000111 ,
+b0000000000000010 -
+b0000000000000010 /
+b1110000000000000 0
+b0000111111111111 2
+0e
+0m
+1o
+0u
+1w
+0}
+1""
+0("
+1*"
+12"
+#2020000
+b0000000000000101 !
+b0000000000000101 &
+b1101111010101101 +
+b0000000000000101 -
+1.
+b0000000000000101 /
+b1101111010101101 4
+b0001001000110100 =
+b0001001000110100 A
+b0001001000110100 E
+b1101111010101101 G
+#2030000
+b0001001000110100 B
+b0001001000110100 F
+b0001001000110100 J
+#2040000
+b0000000000000100 !
+b0000000000000100 &
+b0001001000110100 +
+b0000000000000100 -
+b0000000000000100 /
+b0001001000110100 4
+b0001001000110100 G
+#2500000
+b1111111111111100 !
+1%
+b1111111111111100 &
+1*
+b1111111111111100 /
+#3000000
+b0000000000000100 !
+b1111111111111111 "
+b1000 #
+b1010 $
+0%
+b0000000000000100 &
+b1111111111111111 '
+b1000 (
+b1010 )
+0*
+0.
+b0000000000000100 /
+b1111111111111111 3
+b1010 5
+b1111111111111111 7
+b1111111111111111 ;
+1>
+b0000010010001101 @
+1H
+b0000000000010010 J
+b1000 L
+b1000 T
+b1000 \
+b1000 d
+1h
+0i
+b1000 l
+1p
+0r
+b1000 t
+1x
+0z
+b1000 |
+1#"
+0%"
+b1000 '"
+1+"
+0-"
+b1000 /"
+14"
+05"
+b1000 7"
+b1000 ?"
+b1000 G"
+b1000 O"
+b1000 W"
+b1000 _"
+b1000 g"
+#3010000
+b0000000000000010 !
+b0000000000000010 &
+b0000000000010010 +
+b0000000000000010 -
+b0000000000000010 /
+b0000000010000000 1
+b0000000000010010 4
+b1111111111111111 8
+b1111111111111111 <
+b0000010010001101 =
+b0011111111111111 @
+b0000010010001101 A
+b0000010010001101 E
+b0000000000010010 G
+0f
+11"
+#3018000
+b0000000000010010 !
+b0000000000010010 &
+b0000000011111111 ,
+b0000000000010010 -
+b0000000000010010 /
+b1111111100000000 0
+b0000000001111111 2
+1e
+1m
+0o
+1u
+0w
+1}
+0""
+1("
+0*"
+02"
+#3020000
+b0011111111111111 =
+b0011111111111111 A
+b0000010010001101 B
+b0011111111111111 E
+b0000010010001101 F
+b0000000000000100 J
+#3030000
+b0000000000000100 !
+b0000000000000100 &
+b0000000000000100 +
+b0000000000000100 -
+b0000000000000100 /
+b0000000000000100 4
+b0011111111111111 B
+b0011111111111111 F
+b0000000000000100 G
+b0000000000111111 J
+#3040000
+b0000000000111111 !
+b0000000000111111 &
+b0000000000111111 +
+b0000000000111111 -
+b0000000000111111 /
+b0000000000111111 4
+b0000000000111111 G
+#3500000
+1%
+1*
+#4000000
+b1001000111100101 "
+b0000 #
+b0000 $
+0%
+b1001000111100101 '
+b0000 (
+b0000 )
+0*
+b1001000111100101 3
+b0000 5
+b1001000111100101 7
+b1001000111100101 ;
+0>
+b1111111111111111 @
+0H
+b0011111111111111 J
+b0000 L
+0P
+1Q
+b0000 T
+0X
+1Z
+b0000 \
+0`
+1b
+b0000 d
+0h
+1j
+b0000 l
+0p
+1r
+b0000 t
+0x
+1z
+b0000 |
+0#"
+1%"
+b0000 '"
+0+"
+1-"
+b0000 /"
+04"
+15"
+b0000 7"
+b0000 ?"
+b0000 G"
+b0000 O"
+b0000 W"
+b0000 _"
+b0000 g"
+#4010000
+b0000000011111111 !
+b0000000011111111 &
+b0011111111111111 +
+b0000000011111111 -
+b0000000011111111 /
+b1000000000000000 1
+b0011111111111111 4
+b1001000111100101 8
+b1001000111100101 <
+b1111111111111111 =
+b1001000111100101 @
+b1111111111111111 A
+b1111111111111111 E
+b0011111111111111 G
+1N
+01"
+#4018000
+b0000000000000000 !
+b0000000000000000 &
+b0000000000000000 ,
+b0000000000000000 -
+b0000000000000000 /
+b0000000000000000 0
+b0111111111111111 2
+0M
+0U
+1W
+0]
+1_
+0e
+1g
+0m
+1o
+0u
+1w
+0}
+1""
+0("
+1*"
+12"
+#4020000
+b1001000111100101 =
+b1001000111100101 A
+b1111111111111111 B
+b1001000111100101 E
+b1111111111111111 F
+b1111111111111111 J
+#4030000
+b1111111111111111 +
+b1111111111111111 4
+b1001000111100101 B
+b1001000111100101 F
+b1111111111111111 G
+b1001000111100101 J
+#4040000
+b1001000111100101 +
+b1001000111100101 4
+b1001000111100101 G
+#4500000
+b1010101010101010 "
+b0001 #
+b0101 $
+b1010101010101010 '
+b0001 (
+b0101 )
+b1010101010101010 3
+b0101 5
+b1010101010101010 7
+19
+b0101010101010101 ;
+1C
+b0000100100011110 E
+b0001 L
+1P
+0Q
+b0001 T
+1Y
+0Z
+b0001 \
+b0001 d
+b0001 l
+b0001 t
+b0001 |
+b0001 '"
+b0001 /"
+b0001 7"
+b0001 ?"
+b0001 G"
+b0001 O"
+b0001 W"
+b0001 _"
+b0001 g"
+#4510000
+b0100000000000000 1
+b0101010101010101 8
+b0101010101010101 <
+b0101010101010101 @
+b0000100100011110 B
+b0000100100011110 F
+b0000100100011110 J
+0N
+1V
+#4518000
+b0000000000000001 !
+b0000000000000001 &
+b0000000000000001 ,
+b0000000000000001 -
+1.
+b0000000000000001 /
+b1000000000000000 0
+b0011111111111111 2
+1M
+0W
+#4520000
+b0000000000000000 !
+b0000000000000000 &
+b0000100100011110 +
+b0000000000000000 -
+0.
+b0000000000000000 /
+b0000100100011110 4
+b0101010101010101 =
+b0101010101010101 A
+b0000010101010101 E
+b0000100100011110 G
+#4530000
+b0000010101010101 B
+b0000010101010101 F
+b0000010101010101 J
+#4540000
+b0000000000000001 !
+b0000000000000001 &
+b0000010101010101 +
+b0000000000000001 -
+1.
+b0000000000000001 /
+b0000010101010101 4
+b0000010101010101 G
+#5000000
+b0100 $
+b0100 )
+b0100 5
+09
+b1010101010101010 ;
+#5010000
+b1010101010101010 8
+b1010101010101010 <
+b1010101010101010 @
+#5020000
+b1010101010101010 =
+b1010101010101010 A
+b0000101010101010 E
+#5030000
+b0000101010101010 B
+b0000101010101010 F
+b0000101010101010 J
+#5040000
+b0000000000000000 !
+b0000000000000000 &
+b0000101010101010 +
+b0000000000000000 -
+0.
+b0000000000000000 /
+b0000101010101010 4
+b0000101010101010 G
+#5500000
+b1111111111110110 "
+b0100 #
+b0000 $
+b1111111111110110 '
+b0100 (
+b0000 )
+b1111111111110110 3
+b0000 5
+b1111111111110110 7
+b1111111111110110 ;
+0C
+b1010101010101010 E
+b0100 L
+b0100 T
+1X
+0Y
+b0100 \
+1`
+0b
+b0100 d
+1h
+0j
+b0100 l
+1q
+0r
+b0100 t
+b0100 |
+b0100 '"
+b0100 /"
+b0100 7"
+b0100 ?"
+b0100 G"
+b0100 O"
+b0100 W"
+b0100 _"
+b0100 g"
+#5510000
+b0000100000000000 1
+b1111111111110110 8
+b1111111111110110 <
+b1111111111110110 @
+b1010101010101010 B
+b1010101010101010 F
+b1010101010101010 J
+0V
+1n
+#5518000
+b0000000000001010 !
+b0000000000001010 &
+b0000000000001111 ,
+b0000000000001010 -
+1.
+b0000000000001010 /
+b1111000000000000 0
+b0000011111111111 2
+1U
+1]
+0_
+1e
+0g
+0o
+#5520000
+b1010101010101010 +
+b1010101010101010 4
+b1111111111110110 =
+b1111111111110110 A
+b1111111111110110 E
+b1010101010101010 G
+#5530000
+b1111111111110110 B
+b1111111111110110 F
+b1111111111110110 J
+#5540000
+b0000000000000110 !
+b0000000000000110 &
+b1111111111110110 +
+b0000000000000110 -
+0.
+b0000000000000110 /
+b1111111111110110 4
+b1111111111110110 G
+#6000000
+1%
+1*
+#6500000

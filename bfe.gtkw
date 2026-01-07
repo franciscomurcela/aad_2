@@ -1,0 +1,20 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 Configuration File
+[*]
+
+[dumpfile] "bfe.vcd"
+
+[timestart] 0
+[size] 1600 900
+
+[signals_width] 200
+
+*bfe_tb.s_src[15:0]
+*bfe_tb.s_start[3:0]
+*bfe_tb.s_size[3:0]
+*bfe_tb.s_variant
+*bfe_tb.s_dst[15:0]
+*bfe_tb.s_expected[15:0]
+
+[pattern_trace] 1
+[pattern_trace] 0
