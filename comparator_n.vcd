@@ -1,0 +1,109 @@
+$date
+  Wed Jan 07 15:05:08 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module comparator_n_tb $end
+$var reg 4 ! s_a[3:0] $end
+$var reg 4 " s_b[3:0] $end
+$var reg 1 # s_lt $end
+$var reg 1 $ s_eq $end
+$var reg 1 % s_gt $end
+$scope module uut $end
+$var reg 4 & a[3:0] $end
+$var reg 4 ' b[3:0] $end
+$var reg 1 ( lt $end
+$var reg 1 ) eq $end
+$var reg 1 * gt $end
+$var reg 1 + s_lt $end
+$var reg 1 , s_eq $end
+$var reg 1 - s_gt $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0010 !
+b0010 "
+U#
+U$
+U%
+b0010 &
+b0010 '
+U(
+U)
+U*
+0+
+1,
+0-
+#10000
+1$
+1)
+#18000
+0#
+0%
+0(
+0*
+#200000
+b1011 !
+b0100 "
+b1011 &
+b0100 '
+0,
+1-
+#210000
+0$
+0)
+#218000
+1%
+1*
+#400000
+b0101 !
+b1010 "
+b0101 &
+b1010 '
+1+
+0-
+#418000
+1#
+0%
+1(
+0*
+#600000
+b0111 !
+b0111 "
+b0111 &
+b0111 '
+0+
+1,
+#610000
+1$
+1)
+#618000
+0#
+0(
+#800000
+b1111 !
+b1110 "
+b1111 &
+b1110 '
+0,
+1-
+#810000
+0$
+0)
+#818000
+1%
+1*
+#1000000
