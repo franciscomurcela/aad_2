@@ -1,16 +1,22 @@
 v 4
-file . "shift_right_slice.vhd" "d8964f51254ec90dafd7b02160f8a8ed4ee79f26" "20260107155015.664":
-  entity shift_right_slice at 8( 195) + 0 on 15;
-  architecture behavioral of shift_right_slice at 26( 770) + 0 on 16;
-file . "barrel_shift_right.vhd" "420f42502af78ccf5e095bb17693db1d356c0ef5" "20260107155015.664":
-  entity barrel_shift_right at 9( 260) + 0 on 17;
-  architecture behavioral of barrel_shift_right at 26( 808) + 0 on 18;
-file . "comparator_n.vhd" "3f2d027be1f9ede23914f38aa64b4ea0aa58600e" "20260107155015.664":
-  entity comparator_n at 19( 720) + 0 on 19;
-  architecture behavioral of comparator_n at 38( 1133) + 0 on 20;
-file . "bfe.vhd" "fe6b746ab43ae4386f1e95de9c7884c7f803e894" "20260107155015.664":
-  entity bfe at 5( 73) + 0 on 11;
-  architecture structural of bfe at 24( 708) + 0 on 12;
-file . "bfe_tb_improved.vhd" "af36b4413a0f1a0ff9e9b5f6f5766f3600d458db" "20260107155015.664":
+file . "shift_right_slice.vhd" "8434776c807dd487f36942d29712702a6f884446" "20260109233131.098":
+  entity shift_right_slice at 8( 202) + 0 on 15;
+  architecture behavioral of shift_right_slice at 26( 795) + 0 on 16;
+file . "barrel_shift_right.vhd" "1238dc295dbfad41bc97f3ee42871043dacbc6ec" "20260109233131.098":
+  entity barrel_shift_right at 9( 268) + 0 on 17;
+  architecture behavioral of barrel_shift_right at 26( 833) + 0 on 18;
+file . "comparator_n.vhd" "a641764a09b6d8438ddaf739f2c3cee134bfae3b" "20260109234247.595":
+  entity comparator_n at 19( 738) + 0 on 19;
+  architecture structural of comparator_n at 38( 1170) + 0 on 20;
+file . "bfe.vhd" "d712d338a47d21ad3dbfc410626147185df51c66" "20260109233131.098":
+  entity bfe at 5( 77) + 0 on 11;
+  architecture structural of bfe at 24( 731) + 0 on 12;
+file . "bfe_tb_improved.vhd" "af36b4413a0f1a0ff9e9b5f6f5766f3600d458db" "20260109233131.098":
   entity bfe_tb_improved at 5( 71) + 0 on 13;
   architecture stimulus of bfe_tb_improved at 12( 196) + 0 on 14;
+file . "comparator_stage.vhd" "9229c26f2c02e62b5f6241f6e74c23d56714fc14" "20260109234247.595":
+  entity comparator_stage at 8( 183) + 0 on 23;
+  architecture behavioral of comparator_stage at 25( 763) + 0 on 24;
+file . "comparator_n_tb.vhd" "5440aebb3f8a8c84cbf48cd8605afdd904110b72" "20260109234247.595":
+  entity comparator_n_tb at 5( 50) + 0 on 21;
+  architecture stimulus of comparator_n_tb at 12( 175) + 0 on 22;

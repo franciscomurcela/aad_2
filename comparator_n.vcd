@@ -1,5 +1,5 @@
 $date
-  Wed Jan 07 15:05:08 2026
+  Fri Jan  9 23:42:47 2026
 $end
 $version
   GHDL v0
@@ -27,9 +27,69 @@ $var reg 4 ' b[3:0] $end
 $var reg 1 ( lt $end
 $var reg 1 ) eq $end
 $var reg 1 * gt $end
-$var reg 1 + s_lt $end
-$var reg 1 , s_eq $end
-$var reg 1 - s_gt $end
+$var reg 5 + chain_lt[0:4] $end
+$var reg 5 , chain_eq[0:4] $end
+$var reg 5 - chain_gt[0:4] $end
+$scope module gen_stages(0) $end
+$scope module stage $end
+$var reg 1 . a_bit $end
+$var reg 1 / b_bit $end
+$var reg 1 0 old_lt $end
+$var reg 1 1 old_eq $end
+$var reg 1 2 old_gt $end
+$var reg 1 3 new_lt $end
+$var reg 1 4 new_eq $end
+$var reg 1 5 new_gt $end
+$var reg 1 6 s_lt $end
+$var reg 1 7 s_eq $end
+$var reg 1 8 s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_stages(1) $end
+$scope module stage $end
+$var reg 1 9 a_bit $end
+$var reg 1 : b_bit $end
+$var reg 1 ; old_lt $end
+$var reg 1 < old_eq $end
+$var reg 1 = old_gt $end
+$var reg 1 > new_lt $end
+$var reg 1 ? new_eq $end
+$var reg 1 @ new_gt $end
+$var reg 1 A s_lt $end
+$var reg 1 B s_eq $end
+$var reg 1 C s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_stages(2) $end
+$scope module stage $end
+$var reg 1 D a_bit $end
+$var reg 1 E b_bit $end
+$var reg 1 F old_lt $end
+$var reg 1 G old_eq $end
+$var reg 1 H old_gt $end
+$var reg 1 I new_lt $end
+$var reg 1 J new_eq $end
+$var reg 1 K new_gt $end
+$var reg 1 L s_lt $end
+$var reg 1 M s_eq $end
+$var reg 1 N s_gt $end
+$upscope $end
+$upscope $end
+$scope module gen_stages(3) $end
+$scope module stage $end
+$var reg 1 O a_bit $end
+$var reg 1 P b_bit $end
+$var reg 1 Q old_lt $end
+$var reg 1 R old_eq $end
+$var reg 1 S old_gt $end
+$var reg 1 T new_lt $end
+$var reg 1 U new_eq $end
+$var reg 1 V new_gt $end
+$var reg 1 W s_lt $end
+$var reg 1 X s_eq $end
+$var reg 1 Y s_gt $end
+$upscope $end
+$upscope $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -44,66 +104,323 @@ b0010 '
 U(
 U)
 U*
-0+
-1,
-0-
+b0UUUU +
+b1UUUU ,
+b0UUUU -
+0.
+0/
+00
+11
+02
+U3
+U4
+U5
+06
+17
+08
+19
+1:
+U;
+U<
+U=
+U>
+U?
+U@
+UA
+UB
+UC
+0D
+0E
+UF
+UG
+UH
+UI
+UJ
+UK
+UL
+UM
+UN
+0O
+0P
+UQ
+UR
+US
+UT
+UU
+UV
+UW
+UX
+UY
+#5000
+b00UUU +
+b11UUU ,
+b00UUU -
+03
+14
+05
+0;
+1<
+0=
+U>
+U?
+U@
+0A
+1B
+0C
+UI
+UJ
+UK
+UT
+UU
+UV
 #10000
-1$
-1)
-#18000
+b000UU +
+b111UU ,
+b000UU -
+0>
+1?
+0@
+0F
+1G
+0H
+0L
+1M
+0N
+#15000
+b0000U +
+b1111U ,
+b0000U -
+0I
+1J
+0K
+0Q
+1R
+0S
+0W
+1X
+0Y
+#20000
 0#
+1$
 0%
 0(
+1)
 0*
+b00000 +
+b11111 ,
+b00000 -
+0T
+1U
+0V
 #200000
 b1011 !
 b0100 "
 b1011 &
 b0100 '
-0,
-1-
-#210000
+1.
+07
+18
+0:
+0B
+1C
+1E
+1L
+0M
+1O
+0X
+1Y
+#205000
 0$
-0)
-#218000
 1%
+0)
 1*
+b00010 +
+b10000 ,
+b01101 -
+04
+15
+0<
+1=
+0?
+1@
+0G
+1H
+1I
+0J
+1Q
+0R
+0U
+1V
 #400000
 b0101 !
 b1010 "
 b0101 &
 b1010 '
-1+
-0-
-#418000
+09
+1:
+1A
+0C
+1D
+0E
+0L
+1N
+0O
+1P
+1W
+0Y
+#405000
 1#
 0%
 1(
 0*
+b00101 +
+b01010 -
+1>
+0@
+1F
+0H
+0I
+1K
+0Q
+1S
+1T
+0V
 #600000
 b0111 !
 b0111 "
 b0111 &
 b0111 '
-0+
-1,
-#610000
-1$
-1)
-#618000
+1/
+17
+08
+19
+0A
+1C
+1E
+1L
+0N
+0P
+0W
+1Y
+#605000
 0#
+1%
 0(
+1*
+b00010 +
+b11000 ,
+b00101 -
+14
+05
+1<
+0=
+0>
+1@
+1B
+0C
+0F
+1H
+1I
+0K
+0L
+1N
+1Q
+0S
+0T
+1V
+1W
+0Y
+#610000
+1#
+0%
+1(
+0*
+b00001 +
+b11100 ,
+b00010 -
+1?
+0@
+1G
+0H
+0I
+1K
+1M
+0N
+0Q
+1S
+1T
+0V
+0W
+1Y
+#615000
+0#
+1%
+0(
+1*
+b00000 +
+b11110 ,
+b00001 -
+1J
+0K
+1R
+0S
+0T
+1V
+1X
+0Y
+#620000
+1$
+0%
+1)
+0*
+b11111 ,
+b00000 -
+1U
+0V
 #800000
 b1111 !
 b1110 "
 b1111 &
 b1110 '
-0,
-1-
+0/
+07
+18
+1O
+1P
+#805000
+b10111 ,
+b01000 -
+04
+15
+0<
+1=
+0B
+1C
 #810000
+b10011 ,
+b01100 -
+0?
+1@
+0G
+1H
+0M
+1N
+#815000
+b10001 ,
+b01110 -
+0J
+1K
+0R
+1S
+0X
+1Y
+#820000
 0$
-0)
-#818000
 1%
+0)
 1*
+b10000 ,
+b01111 -
+0U
+1V
 #1000000

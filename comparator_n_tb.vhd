@@ -19,7 +19,7 @@ architecture stimulus of comparator_n_tb is
   signal s_eq : std_logic;
   signal s_gt : std_logic;
 begin
-  uut : entity work.comparator_n(behavioral)
+  uut : entity work.comparator_n(structural)
                generic map
                (
                  N => N
