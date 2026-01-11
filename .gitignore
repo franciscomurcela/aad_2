@@ -1,0 +1,21 @@
+# GHDL compilation files
+work-*.cf
+*.o
+*.exe
+a.out
+
+# Simulation outputs
+*.vcd
+
+# GTKWave configs (opcional - remove se quiseres versionar)
+*.gtkw
+
+# Generated testbench (se for gerado do .c)
+bfe_tb.vhd
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
